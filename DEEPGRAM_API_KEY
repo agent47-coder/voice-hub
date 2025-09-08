@@ -1,0 +1,5 @@
+3. `npm run dev`
+
+## 🔑 Déploiement
+- Sur Vercel, ajoute ta variable d’environnement `DEEPGRAM_API_KEY`.
+- Page accessible : `/voice`
