@@ -1,8 +1,9 @@
 Voice Hub – by Synchronia Labs
 
 
-
-
+![License](https://img.shields.io/badge/license-MIT-green)
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![Status](https://img.shields.io/badge/status-active-success)
 
 
 Voice Hub est une application web temps réel Voix → Texte → Voix, construite avec Next.js et intégrée à Deepgram pour la transcription. Elle ajoute une étape IA (LLM) pour enrichir la réponse avant synthèse vocale.
