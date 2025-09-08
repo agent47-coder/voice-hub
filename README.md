@@ -1,8 +1,18 @@
-# 🎙️ Voice Hub
+# 🎙️ Voice Hub – by Synchronia Labs
 
-Prototype de transcription audio avec **Deepgram API**.  
-Déployable sur **Vercel**.
+Voice Hub est une application web **Voix → Texte → Voix** construite avec **Next.js** et intégrée à **Deepgram** pour la transcription en temps réel.
 
-## 🚀 Démarrage
-1. `npm install`
-2. Créer `.env.local` avec :
+## ✨ Fonctionnalités
+- 🎤 Capture micro → envoi audio → **Deepgram STT**
+- 📝 Transcription texte affichée instantanément
+- 🤖 Passage par un LLM (OpenAI / Claude / Grok – optionnel)
+- 🔊 Synthèse vocale → réponse parlée en retour
+- 🌐 Démo Web prête sur Vercel
+
+## 🚀 Lancer en local
+
+```bash
+git clone https://github.com/agent47-coder/voice-hub.git
+cd voice-hub
+npm install
+npm run dev
